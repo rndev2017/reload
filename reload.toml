@@ -1,0 +1,22 @@
+# reload.toml config file
+
+# basic workflow (no subcommands)
+[basic]
+containerized = false
+verbose = true
+path = "." # path to the project directory
+watch = [ ] # files to watch
+ignore = [ ] # files to ignore
+build = [ ] # build shell commands
+run = ""
+
+# make use of the 'docker compose' functionality
+[compose]
+containerized = true
+verbose = true
+path = "." # path to the project directory
+watch = [ ] # files to watch
+ignore = [ ] # files to ignore
+service = ""
+
+# add as many as you like...
