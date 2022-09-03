@@ -8,7 +8,7 @@ Reload is a CLI tool written in Golang to enable live reload functionality for b
 
 ## Installation (from source)
 ```shell
-git clone https://github.comcast.com/SPEG-PP/Reload <somewhere>
+git clone https://github.com/rndev2017/reload <somewhere>
 cd <somewhere>
 make build
 make install
